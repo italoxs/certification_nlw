@@ -1,20 +1,22 @@
-package br.com.italoxsales.certification_nlw.modules.students.entities;
+package br.com.italoxsales.certification_nlw.modules.questions.dto;
 
 import java.util.List;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CertificationsStudentEntity {
-
+@Builder
+public class QuestionResultDTO {
+  
   private UUID id;
-  private UUID studentId;
   private String technology;
-  private int grate;
-  List<AnswerCertificationsEntity> answerCertificationsEntity;
+  private String description;
+
+  private List<AlternativesResultDTO> alternatives;
 }
