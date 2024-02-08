@@ -1,7 +1,7 @@
 ## App de Certificação
-[] Banco de dados - Postgres
-[] setup utilizando o Springboot
-[] Spring Data JPA - para persistência dos dados e Hibernate ORM
-[] Docker Compose
-[] aplicando princípios do SOLID
-[] funcionalidades do Lambda
+[] Banco de dados - Postgres<br>
+[] setup utilizando o Springboot<br>
+[] Spring Data JPA - para persistência dos dados e Hibernate ORM<br>
+[] Docker Compose<br>
+[] aplicando princípios do SOLID<br>
+[] funcionalidades do Lambda<br>
